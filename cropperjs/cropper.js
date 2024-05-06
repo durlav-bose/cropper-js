@@ -2736,6 +2736,8 @@
       var canvasData = this.canvasData;
       var source = getSourceCanvas(this.image, this.imageData, canvasData, options);
 
+      console.log('source :>> ', source);
+
       // Returns the source canvas if it is not cropped.
       if (!this.cropped) {
         return source;
